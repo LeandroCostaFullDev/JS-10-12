@@ -342,5 +342,73 @@
 
 // ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 
-8. Verificar idade de entrada
-Peça ao usuário para inserir a idade e diga se ele pode votar (idade >= 16) ou não pode votar (idade < 16).
+// 8. Verificar idade de entrada.
+// Peça ao usuário para inserir a idade e diga se ele pode votar (idade >= 16) ou não pode votar (idade < 16).
+
+// let eleitor = Number(prompt("Digite dua idade:"))
+
+// if(eleitor >= 16){
+//    alert("Vc pode votar!")
+// } else{
+//    alert("Vc NÃO pode votar!")
+// }
+
+// ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+// 9. Determinar se é um número par
+// Peça ao usuário para inserir um número e diga se ele é par ou ímpar.
+
+// let numero = Number(prompt("Digite um numero:"))
+
+// if( numero % 2 === 0){
+//     alert(`O número ${numero} é PAR.`)
+// } else{
+//     alert(`O número ${numero} é IMPAR.`)
+// }
+
+// ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+// 10. Verificar se é letra A
+// Peça ao usuário para inserir uma letra e diga se ela é a letra A ou não.
+
+// let letra = prompt("Digite uma letra:")
+
+// if(letra === "A"){
+//     alert("Vc digitou a letra A!")
+// } else{
+//     alert("Não é a letra A!")
+// }
+
+// ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+//Diga qual é o maior time do estado: O sistema receberá quantos anos o ceara e o fortaleza passaram na serie C e dirá quem é o maior.
+
+// let ceara = Number(prompt("Quantos anos o Ceará passou na Serie C ?"))
+// let fortaleza = Number(prompt("Quantos anos o Fortaleza passou na Serie C ?"))
+
+// if(ceara > fortaleza){
+//     alert("Fortaleza é maior queo Ceará !")
+// } else {
+//     alert("Ceará é maior que o Fortaleza !")
+// }
+
+// ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+// 3. Escreva	 um	 programa	 que	 verifique	 a	 validade	 de	 uma	 senha	 fornecida	
+// pelo	 usuário.	 A	 senha	 válida	 é	 o	 número	 1234.	Devem	 ser	impressas	 as	
+// seguintes	mensagens:	
+// ACESSO	PERMITIDO	caso	a	senha	seja	válida.	
+// ACESSO	NEGADO	caso	a	senha	seja	inválida.
+
+// let senhaInserida = Number(prompt("Digite sua senha:"))
+
+// if(senhaInserida === 1234){
+//     alert("ACESSO PERMITIDO!")
+// } else{
+//     alert("ACESSO NEGADO!")
+// }
+
+// ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+1. Escreva	 um	 programa	 para	 ler	 2	 valores	 (considere	 que	 	 não	 serão	
+    informados	valores	iguais)	e	escrever	o	maior	deles.
