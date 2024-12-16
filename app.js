@@ -1,3 +1,5 @@
+// https://dontpad.com/fs20/ifelse
+
 // Diga qual o maior time do estado: O sistema receberá quantos anos o ceara e o fortaleza passaram na serie C e dirá quem é o maior.
 
 // let anosCeara = Number(prompt("digite quantos anos o ceara passou na serie C"))
@@ -251,7 +253,94 @@
 
 // ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 
+// 2. Verificar se é maior ou menor
+// Peça ao usuário para inserir dois números e diga qual é maior ou se são iguais.
+
+// let numero1 = Number(prompt("DIgite um número:"))
+// let numero2 = Number(prompt("Digite um número:"))
+
+// if(numero1 > numero2){
+//     alert(`O número é o maior: ${numero1}`)
+// }
+// else if(numero1 < numero2){
+//     alert(`O número é o maior: ${numero2}`)
+// } else("Números iguais.")
+
+// ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
 // 3. Verificar se é múltiplo de 3
 // Peça ao usuário para inserir um número e diga se ele é múltiplo de 3.
 
-let numero1 = Number(prompt("Digite um numero:"))
+// let multiplo3 = Number(prompt(`Verifique se o número é multiplo de 3`))
+
+// if(multiplo3 % 3 === 0){
+//     alert(`O número ${multiplo3} é divisor de 3.`)
+// } else{
+//     alert(`O número ${multiplo3} não é divisor de 3.`)
+// }
+
+// ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+// 4. Verificar se é maior de 10
+// Peça ao usuário para inserir um número e diga se ele é maior que 10 ou menor ou igual a 10.
+
+// let numero = Number(prompt("Digite um número:"))
+
+// if( numero > 10 ){
+//     alert(`O número ${numero} é maior que 10.`)
+// }
+// else if(numero === 10){
+//     alert(`O número ${numero} é igual a 10.`)
+// }
+// else{
+//     alert(`O número ${numero} não é maior que 10.`)
+// }
+
+// ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+// 5. Verificar se é maior que 100
+// Peça ao usuário para inserir um número e diga se ele é maior que 100 ou menor ou igual a 100.
+
+// let numero = Number(prompt("Digite um número:"))
+
+// if(numero > 100){
+//     alert(`O número ${numero} é maior que 100.`)
+// }
+// else if(numero === 100){
+//     alert(`O número ${numero} é igual a 100.`)
+// } else{
+//     alert(`O número ${numero} não é maior que 100.`)
+// }
+
+// ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+// 6. Escolha entre "Sim" e "Não"
+// Peça ao usuário para responder "Sim" ou "Não". Se ele responder "Sim", imprima "Você escolheu sim". Caso contrário, imprima "Você escolheu não".
+
+// let confirmação = prompt("Responda SIM ou NÃO:")
+
+// if(confirmação === "Sim"){
+//     alert("Vc escolheu SIM.")
+// }
+// else if(confirmação === "Não"){
+//     alert("Vc escolheu NÃO.")
+// } else{
+//     alert("ERRO!! Digite Sim ou Não")}
+
+// ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+// 7. Verificar se é divisível por 5
+// Peça ao usuário para inserir um número e diga se ele é divisível por 5.
+
+// let numero = Number(prompt("Digite um número:"))
+
+// if(numero % 5 === 0){
+//     alert(`${numero} é divisível por 5.`)
+// } else{
+//     alert(`${numero} não é divisível por 5.`)
+// }
+
+// ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+8. Verificar idade de entrada
+Peça ao usuário para inserir a idade e diga se ele pode votar (idade >= 16) ou não pode votar (idade < 16).
