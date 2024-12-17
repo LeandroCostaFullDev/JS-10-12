@@ -410,5 +410,89 @@
 
 // ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 
-1. Escreva	 um	 programa	 para	 ler	 2	 valores	 (considere	 que	 	 não	 serão	
-    informados	valores	iguais)	e	escrever	o	maior	deles.
+// 1. Escreva	 um	 programa	 para	 ler	 2	 valores	 (considere	 que não serão	
+//     informados	valores	iguais)	e	escrever	o	maior	deles.
+
+// let valor1 = Number(prompt("Digite o primeiro valor:"))
+// let valor2 = Number(prompt("Digite o segundo valor:"))
+
+// if(valor1 > valor2){
+//     alert(`O valor ${valor1} é maior.`)
+// }
+// else if(valor1 < valor2){
+//     alert(`O valor ${valor2} é maior.`)
+// } else{
+//     alert("Valores iguais. Digite novamente!")
+// }
+
+// ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+// 2. Escreva	 um	 programa	 para	 ler	 o	 ano	 de	 nascimento	 de	 uma	 pessoa	 e	
+// escrever	 uma	 mensagem	 que	 diga	 se	 ela	 poderá	 ou	 não	 votar	 este	 ano	
+// (não	é	necessário	considerar	o	mês	em	que	ela	nasceu).
+
+// let ano = Number(prompt("Digite seu ano de nascimento :"))
+
+// if(ano <= 2008){
+//     alert("Vc poderá votar esse ano.")
+// } else{
+//     alert("Vc não poderá votar esse ano.")
+// }
+
+// ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+// Exercício 1: Verificar a maioridade de João
+// Crie uma verificação para saber se o João é maior de idade. 
+// Se ele tiver 18 anos ou mais, a mensagem será "João é maior de idade", caso contrário, "João é menor de idade".
+
+// let joão = Number(prompt("Digite a idade de João:"))
+
+// if(joão >= 18){
+//     alert("João é maior de idade")
+// } else{
+//     alert("João é menor de idade")}
+
+// ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+// Exercício 2: Verificar profissão de Maria
+// Crie uma verificação para saber se a Maria é "Médica". 
+// Se for, a mensagem será "Maria é profissional de saúde", caso contrário, "Maria tem outra profissão".
+
+// let profissao = prompt("Qual a profissão de maria ?")
+
+// if(profissao === "Médica"){
+//     alert("Maria é profissional de saúde")
+// } else{
+//     alert("Maria tem outra profissão")
+// }
+
+// ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+// Exercício 4: Verificar categoria etária de Ana
+// Crie uma verificação para classificar Ana em uma categoria etária. 
+// Se ela tiver 18 anos ou mais, será "Adulto". Se for menor de 18, será "Jovem".
+
+// let faixaEtaria = Number(prompt("Digite a idade de Ana:"))
+
+// if(faixaEtaria >= 18){
+//     alert("Ana é adulta.")
+// } else {
+//     alert("Ana é jovem ainda, jovem ainda.")
+// }
+
+// ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+// Exercício 5: Verificar idade de Pedro para um benefício
+// Crie uma verificação para saber se Pedro tem 60 anos ou mais para receber um benefício. 
+// Se ele tiver 60 ou mais, a mensagem será "Pedro recebe o benefício", caso contrário, "Pedro não recebe o benefício".
+
+// let idade = Number(prompt("Digite a idade:"))
+
+// if(idade >= 60){
+//     alert("Pedro recebe o benefício")
+// } else{
+//     alert("Pedro não recebe o benefício")
+// }
+
+// ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
