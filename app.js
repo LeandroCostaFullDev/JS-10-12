@@ -1,5 +1,16 @@
 // https://dontpad.com/fs20/ifelse
 
+// OPERADORES
+// > >=
+// <  <=
+// === (COMPARA VALOR E TIPO)
+// == (COMPARA SOMENTE VALOR)
+//!==(Estritamente diferente)
+//!= (Diferente)
+//%(Resto da divisao)
+
+// ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
 // Diga qual o maior time do estado: O sistema receberá quantos anos o ceara e o fortaleza passaram na serie C e dirá quem é o maior.
 
 // let anosCeara = Number(prompt("digite quantos anos o ceara passou na serie C"))
@@ -495,4 +506,100 @@
 // }
 
 // ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+// let numero1 = Number(prompt("Digite número 1:"))
+// let operacao = prompt("Digite a operação")
+// let numero2 = Number(prompt("Digite número 2:"))
+
+// if(operacao === "+"){
+//     let soma = numero1 + numero2
+//     alert(`O resultado da soma é: ${soma}`)
+// } else if(opreacao === "-"){
+//     let sub = numero1 - numero2
+//     alert(`O resultado da sub é: ${sub}`)
+// } else if(opreacao === "*"){
+//     let mult = numero1 * numero2
+//     alert(`O resultado da sub é: ${mult}`)
+// } else if(opreacao === "/"){
+//     let div = numero1 / numero2
+//     alert(`O resultado da sub é: ${div}`)
+// } else {
+//     alert("Digite um valor válido.")
+// }
+
+// ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+
+
+// for (let index = 0; index <1000; index++){
+
+// }
+
+
+// ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+// Imprimir a tabuada de um número
+// Dodo o número, imprima a sua tabuada de 1 a 10.
+
+// let numero = 2
+
+// for (let index = 1; index <= 10; index++){
+//     let multiplicacao = numero*index
+//     console.log(`${numero} * ${index} = ${multiplicacao}`);
+// }
+
+// ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+// for (let index = 0; index <=20; index++){
+//     if(index % 2 === 0){
+//         console.log(`${index} é par`); 
+//     } else{
+//         console.log(`${index} é impar`);
+        
+//     }
+// }
+
+// ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+// Contagem Progressiva:
+// Crie um loop que conta de 1 a 10 e imprima cada número no console.
+
+// for (let index = 1; index <=10; index++) {
+//     console.log(index);
+    
+// }
+
+// ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+// Contagem Regressiva
+
+// for (let index = 10; index >=1; index--) {
+//     console.log(index);   
+// }
+
+// ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+// Contagem de Números Pares
+// Utilize um loop para imprimir todos os números pares de 1 a 20 no console.
+
+// for (let index = 1; index <=20; index++) {
+//     if(index % 2 === 0){
+//         console.log(index); 
+//     }
+// }
+
+// ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+// Contagem de Números Ímpares
+// Utilize um loop para imprimir todos os números ímpares de 1 a 20 no console.
+
+// for (let index = 1; index <=20; index++) {
+//     if(index % 2 !== 0)
+//         console.log(index);      
+// }
+
+// ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+// Tabuada de um Número Específico
+// Crie um loop que imprime a tabuada do 5 (de 1 a 10) no console.
 
