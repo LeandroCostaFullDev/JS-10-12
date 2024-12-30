@@ -631,26 +631,51 @@
 let cliente = prompt("Digite o cliente:")
 let distaciaTotal = Number(prompt("Digite a distância de asfalto:"))
 let distanciaCarrocal = Number(prompt("Digite a distância de carroçal:"))
+
 let carrocalSouenergyFotus = 5.0
 let asfaltoSouenergyFotus = 4.5
 let carrocalSoollar = 6.0
 let asfaltoSoollar = 5.5
 
-if(cliente = "sou energy"){
+if(cliente === "sou energy"){
     let distanciaSouEnergy = distaciaTotal * asfaltoSouenergyFotus
     let carrocalSouEnergy = distanciaCarrocal * carrocalSouenergyFotus
     let valorTotal = distanciaSouEnergy + carrocalSouEnergy
  
-    alert(`Taxa de asfalto é: ${distanciaSouEnergy}`)
-    alert(`Taxa de carroçal é: ${carrocalSouEnergy}`)
-    alert(`Valor total é: ${valorTotal}`)
-        
+    alert(`
+        Taxa de asfalto é: ${distanciaSouEnergy}
+        Taxa de carroçal é: ${carrocalSouEnergy}
 
-} else if (cliente = "fotus") {
+        Valor total é: ${valorTotal}
+        `)
+} else if (cliente === "fotus") {
+    let DistanciaFotus = distaciaTotal * asfaltoSouenergyFotus
+    let carroçalFotus = distanciaCarrocal * carrocalSouenergyFotus
+    let valorTotalFotus = DistanciaFotus + carroçalFotus
     
-} else if(cliente = "soollar"){
+    alert(`
+        Taxa de asfalto é: ${DistanciaFotus}
+        Taxa de carroçal é: ${carroçalFotus}
 
-} else {
+        Valor total é: ${valorTotalFotus}
+        `)
+} else if(cliente === "soollar"){
+    let distanciaAsfaltosoollar = distaciaTotal * asfaltoSoollar
+    let distanciaCarrocalSoollar = distanciaCarrocal * carrocalSoollar
+    let valorTotalSoollar = distanciaAsfaltosoollar + distanciaCarrocalSoollar
+
+    alert(`
+        Taxa de asfalto é: ${distanciaAsfaltosoollar}
+        Taxa de carroçal é: ${distanciaCarrocalSoollar}
+
+        Valor total é: ${valorTotalSoollar}
+        `)
+
+} else if(cliente !== "sou energy" && "fotus" && "soollar" ){
+    alert("Digite o nome do cliente corretamente!")
+}
+
+else {
     alert("Nome do cliente errado!")
 }
 
