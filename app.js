@@ -603,3 +603,54 @@
 // Tabuada de um Número Específico
 // Crie um loop que imprime a tabuada do 5 (de 1 a 10) no console.
 
+// ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+// ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+// let numero1 = Number(prompt("Digite número 1:"))
+// let operacao = prompt("Digite a operação")
+// let numero2 = Number(prompt("Digite número 2:"))
+
+// if(operacao === "+"){
+//     let soma = numero1 + numero2
+//     alert(`O resultado da soma é: ${soma}`)
+// } else if(opreacao === "-"){
+//     let sub = numero1 - numero2
+//     alert(`O resultado da sub é: ${sub}`)
+// } else if(opreacao === "*"){
+//     let mult = numero1 * numero2
+//     alert(`O resultado da sub é: ${mult}`)
+// } else if(opreacao === "/"){
+//     let div = numero1 / numero2
+//     alert(`O resultado da sub é: ${div}`)
+// } else {
+//     alert("Digite um valor válido.")
+// }
+
+// ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+let cliente = prompt("Digite o cliente:")
+let distaciaTotal = Number(prompt("Digite a distância de asfalto:"))
+let distanciaCarrocal = Number(prompt("Digite a distância de carroçal:"))
+let carrocalSouenergyFotus = 5.0
+let asfaltoSouenergyFotus = 4.5
+let carrocalSoollar = 6.0
+let asfaltoSoollar = 5.5
+
+if(cliente = "sou energy"){
+    let distanciaSouEnergy = distaciaTotal * asfaltoSouenergyFotus
+    let carrocalSouEnergy = distanciaCarrocal * carrocalSouenergyFotus
+    let valorTotal = distanciaSouEnergy + carrocalSouEnergy
+ 
+    alert(`Taxa de asfalto é: ${distanciaSouEnergy}`)
+    alert(`Taxa de carroçal é: ${carrocalSouEnergy}`)
+    alert(`Valor total é: ${valorTotal}`)
+        
+
+} else if (cliente = "fotus") {
+    
+} else if(cliente = "soollar"){
+
+} else {
+    alert("Nome do cliente errado!")
+}
+
